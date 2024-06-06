@@ -1,0 +1,110 @@
+.news{
+    width: 80%;
+    margin: auto;
+}
+.data{
+    border-collapse: collapse;
+}
+.data td, .data th{
+    padding: 10px;
+}
+.data img{
+    height: 30px;
+}
+.logout {
+    float: right;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 10px;
+    margin-bottom:8px ;
+    border-radius: 3px;
+    border: none;
+    font-weight: 600;
+    padding: 8px 32px;
+    font-family: Roboto;
+    cursor: pointer; 
+}
+.edit textarea{
+    width: 300px;
+    height: 200px;
+}
+.edit input{
+    width: 300px;
+}
+.header {
+    display: flex;
+    margin-top: 10px;
+    height: 75px;
+    background-color: white;
+    justify-content: center;
+    align-content: center;    
+}
+.line{
+    border-top: 1px  rgb(106, 105, 105);
+    border-right: 1px  rgb(106, 105, 105);
+    border-left: 1px  rgb(106, 105, 105);
+    clear: both; 
+    margin-top: 100px; 
+}
+.news {
+    display: inline-block;
+    padding: 5px;
+    margin-left: 150px;
+  }
+  
+  .news button {
+    margin-bottom: 30px;
+    background-color: rgb(176,176,176)  ; 
+    color: white; 
+    border: none; 
+    border-radius: 3px; 
+    padding: 10px 20px; 
+    margin-right: 10px; 
+    text-decoration: none; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+  }
+  
+  .news button:hover {
+    background-color: rgb(103, 102, 102); 
+  }
+  
+  .news button a {
+    color: white; 
+    text-decoration: none; 
+  }
+  
+  .news button a:hover {
+    text-decoration: none;  
+  }
+  .footer {
+    flex-direction: row;  
+    align-items: center;
+    align-content: center;
+    justify-content: center;  
+    padding: 24px;
+    color: white;
+    text-align: left; 
+    flex-wrap: wrap;
+    width: auto;
+    margin-top: 150px;
+  }
+  
+.footer .copyright {
+    color: #7A7A7A;
+    font-size: 9px;
+    font-family: Roboto;
+    font-weight: 700;
+    word-wrap: break-word;
+    margin-right: 10px;
+    display: inline-block;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-left: 300px;
+}
+.footer .right{
+    display: inline;
+
+}
